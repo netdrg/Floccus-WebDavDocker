@@ -15,7 +15,7 @@ Inspired by [TCB13/LoFloccus](https://github.com/TCB13/LoFloccus) ('Sync Floccus
 
 ## 1. Download with git
 ```
-$ git clone https://github.com/marlluslustosa/Floccus-WebDavDocker
+$ git clone https://github.com/netdrg/Floccus-WebDavDocker
 $ cd Floccus-WebDavDocker
 ```
 
@@ -33,7 +33,7 @@ $ sudo docker run -itd --name floccuswebdav -e USER="user" -e PASS="pass" -v $PW
 # Install with 'one command'
 ## 1. Download and build and run image docker (Docker Hub Repository)
 ```
-sudo docker run -itd --name floccuswebdav -e USER="user" -e PASS="pass" -v "$PWD"/bookmarks/:/var/floccuswebdav/bookmarks/ -p 8083:8081 --restart=always marlluslustosa/floccuswebdav
+sudo docker run -itd --name floccuswebdav -e USER="user" -e PASS="pass" -v "$PWD"/bookmarks/:/var/floccuswebdav/bookmarks/ -p 8083:8081 --restart=always netdrg/floccuswebdav
 ```
 
 
